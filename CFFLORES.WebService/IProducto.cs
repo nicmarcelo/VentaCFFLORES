@@ -24,7 +24,8 @@ namespace CFFLORES.WebService
         [FaultContract(typeof(RepetidoException))]
         [OperationContract]
         EProducto ModificarProducto(EProducto productos);*/
-
+        
+        // Listado de Productos
         [OperationContract]
         List<EProducto> ListarProducto();
 
