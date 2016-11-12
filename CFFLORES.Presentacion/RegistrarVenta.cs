@@ -60,7 +60,7 @@ namespace CFFLORES.Presentacion
 
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Se realizo la Venta.",
+            MessageBox.Show("Se realizó la Venta.",
             "EXITO",
             MessageBoxButtons.OK,
             MessageBoxIcon.Information,
@@ -71,7 +71,7 @@ namespace CFFLORES.Presentacion
 
         private void button6_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("¿Esta Seguro que desea cancelar la Venta?",
+            DialogResult result = MessageBox.Show("¿Está Seguro que desea cancelar la Venta?",
             "Atencion",
             MessageBoxButtons.YesNo,
             MessageBoxIcon.Question,
@@ -109,7 +109,7 @@ namespace CFFLORES.Presentacion
             }
             
 
-            DialogResult result = MessageBox.Show("¿Esta Seguro que desea Anular la Venta?",
+            DialogResult result = MessageBox.Show("¿Está Seguro que desea Anular la Venta?",
             "Atencion",
             MessageBoxButtons.YesNo,
             MessageBoxIcon.Question,
@@ -117,7 +117,7 @@ namespace CFFLORES.Presentacion
 
             if (result == System.Windows.Forms.DialogResult.Yes)
             {
-                MessageBox.Show("Se realizo la Anulación",
+                MessageBox.Show("Se realizó la Anulación",
                 "EXITO",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information,
@@ -148,7 +148,7 @@ namespace CFFLORES.Presentacion
                 return;
             }
 
-            DialogResult result = MessageBox.Show("¿Esta Seguro que desea Imprimir la Venta?",
+            DialogResult result = MessageBox.Show("¿Está Seguro que desea Imprimir la Venta?",
             "Atencion",
             MessageBoxButtons.YesNo,
             MessageBoxIcon.Question,
