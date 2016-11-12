@@ -47,7 +47,7 @@ namespace CFFLORES.Presentacion
              MessageBoxIcon.Exclamation,
              MessageBoxDefaultButton.Button1);
 
-            MessageBox.Show("El Producto <Nombre Producto> no cuenta con Stock Disponible.",
+            MessageBox.Show("El Producto <Nombre producto> no cuenta con Stock Disponible.",
              "Adventencia",
              MessageBoxButtons.OK,
              MessageBoxIcon.Exclamation,
