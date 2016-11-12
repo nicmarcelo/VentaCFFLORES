@@ -25,7 +25,7 @@ namespace CFFLORES.Presentacion
         {
             if (textBox1.Text.Equals("") && textBox2.Text.Equals(""))
             {
-                MessageBox.Show("Debe llenar por lo menos una busqueda",
+                MessageBox.Show("Debe de llenar por lo menos una búsqueda",
                 "Adventencia",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Exclamation,
