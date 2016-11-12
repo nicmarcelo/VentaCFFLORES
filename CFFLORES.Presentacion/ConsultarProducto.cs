@@ -59,7 +59,7 @@ namespace CFFLORES.Presentacion
              MessageBoxIcon.Exclamation,
              MessageBoxDefaultButton.Button1);
 
-            MessageBox.Show("El Producto <Nombre Producto> esta Deshabilitado",
+            MessageBox.Show("El Producto <Nombre producto> esta Deshabilitado",
              "Adventencia",
              MessageBoxButtons.OK,
              MessageBoxIcon.Exclamation,
