@@ -41,7 +41,7 @@ namespace CFFLORES.Presentacion
              MessageBoxButtons.OK,
              MessageBoxIcon.Error,
              MessageBoxDefaultButton.Button1);
-            MessageBox.Show("El Producto <Nombre Producto> esta por agotarse.",
+            MessageBox.Show("El Producto <Nombre producto> esta por agotarse.",
              "Adventencia",
              MessageBoxButtons.OK,
              MessageBoxIcon.Exclamation,
