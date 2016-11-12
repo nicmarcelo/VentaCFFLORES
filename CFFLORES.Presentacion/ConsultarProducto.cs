@@ -41,13 +41,13 @@ namespace CFFLORES.Presentacion
              MessageBoxButtons.OK,
              MessageBoxIcon.Error,
              MessageBoxDefaultButton.Button1);
-            MessageBox.Show("El Producto <Nombre producto> esta por agotarse.",
+            MessageBox.Show("El producto <Nombre producto> esta por agotarse.",
              "Adventencia",
              MessageBoxButtons.OK,
              MessageBoxIcon.Exclamation,
              MessageBoxDefaultButton.Button1);
 
-            MessageBox.Show("El Producto <Nombre producto> no cuenta con Stock Disponible.",
+            MessageBox.Show("El producto <Nombre producto> no cuenta con stock disponible.",
              "Adventencia",
              MessageBoxButtons.OK,
              MessageBoxIcon.Exclamation,
