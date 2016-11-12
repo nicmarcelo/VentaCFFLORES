@@ -9,7 +9,7 @@ namespace CFFLORES.AccesoDatos
 {
     public class DAOProducto
     {
-//acceso
+//acceso a coneccion de BD
         public EProducto ObtenerProducto(string codigobarra)
         {
             EProducto productoEncontrado = null;
