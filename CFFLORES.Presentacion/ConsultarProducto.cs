@@ -36,7 +36,7 @@ namespace CFFLORES.Presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Para buscar nombre o tipo, no debe registrar código de barras",
+            MessageBox.Show("Para buscar nombre o tipo, no debe registrar código de barras.",
                              "Errpr",
              MessageBoxButtons.OK,
              MessageBoxIcon.Error,
@@ -59,7 +59,7 @@ namespace CFFLORES.Presentacion
              MessageBoxIcon.Exclamation,
              MessageBoxDefaultButton.Button1);
 
-            MessageBox.Show("El producto <Nombre producto> esta deshabilitado",
+            MessageBox.Show("El producto <Nombre producto> esta deshabilitado.",
              "Adventencia",
              MessageBoxButtons.OK,
              MessageBoxIcon.Exclamation,
