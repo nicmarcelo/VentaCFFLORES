@@ -35,7 +35,7 @@ namespace CFFLORES.Presentacion
 
             if (textBox1.Text.Length != 8)
             {
-                MessageBox.Show("El DNI debe contener 8 Caracteres",
+                MessageBox.Show("El DNI debe contener 8 caracteres",
                 "Adventencia",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Exclamation,
@@ -45,7 +45,7 @@ namespace CFFLORES.Presentacion
 
             if (textBox1.Text.Equals("44745474"))
             {
-                MessageBox.Show("El Cliente no Existe",
+                MessageBox.Show("El cliente no existe",
                 "Adventencia",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Exclamation,
