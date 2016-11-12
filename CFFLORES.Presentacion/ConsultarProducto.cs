@@ -53,13 +53,13 @@ namespace CFFLORES.Presentacion
              MessageBoxIcon.Exclamation,
              MessageBoxDefaultButton.Button1);
 
-            MessageBox.Show("El Producto no existe.",
+            MessageBox.Show("El producto no existe.",
              "Adventencia",
              MessageBoxButtons.OK,
              MessageBoxIcon.Exclamation,
              MessageBoxDefaultButton.Button1);
 
-            MessageBox.Show("El Producto <Nombre producto> esta Deshabilitado",
+            MessageBox.Show("El producto <Nombre producto> esta deshabilitado",
              "Adventencia",
              MessageBoxButtons.OK,
              MessageBoxIcon.Exclamation,
