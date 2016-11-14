@@ -101,6 +101,7 @@ namespace UnitTestProject1
             }
             catch (FaultException<ProductoWSC.ProductoInexistente> error)
             {
+                /*Por error se valida los datos*/
                 if (error.Detail.exCodigo == 1)
                     Assert.AreEqual("Para Buscar Nombre o Tipo, no se debe registrar código de barras", error.Reason.ToString());
                 if (error.Detail.exCodigo == 10) 
