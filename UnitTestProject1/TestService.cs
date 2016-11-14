@@ -104,7 +104,7 @@ namespace UnitTestProject1
                 if (error.Detail.exCodigo == 1)
                     Assert.AreEqual("Para Buscar Nombre o Tipo, no se debe registrar código de barras", error.Reason.ToString());
                 if (error.Detail.exCodigo == 10) 
-                    Assert.AreEqual("El producto No existee", error.Reason.ToString());
+                    Assert.AreEqual("El producto No existe", error.Reason.ToString());
                 if (error.Detail.exCodigo == 11)
                     Assert.AreEqual("El producto " + error.Detail.exProducto + " no cuenta con Stock disponible", error.Reason.ToString());
                 if (error.Detail.exCodigo == 12)
