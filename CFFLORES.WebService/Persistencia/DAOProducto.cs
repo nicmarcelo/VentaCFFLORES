@@ -9,8 +9,8 @@ namespace CFFLORES.WebService.Persistencia
 {
     public class DAOProducto
     {
-        private string cadenaconexion = "Data Source=fbd27b4e-9c23-410d-9c8a-a6b8002930c7.sqlserver.sequelizer.com;Initial Catalog=dbfbd27b4e9c23410d9c8aa6b8002930c7;User Id=rghevpnksnsulkdu;Password=VKpabnBJuTpNEYn6J2RgS3vfAgD8p7BxYaf8Wp2BVRWfvZ32uVoHPae3ojG3RCtw;";
-        //private string cadenaconexion = "Data Source=LAPTOP-C3204AHJ\\SQLEXPRESS;Initial Catalog=CFFLORESDB;Integrated Security=True";
+        //private string cadenaconexion = "Data Source=fbd27b4e-9c23-410d-9c8a-a6b8002930c7.sqlserver.sequelizer.com;Initial Catalog=dbfbd27b4e9c23410d9c8aa6b8002930c7;User Id=rghevpnksnsulkdu;Password=VKpabnBJuTpNEYn6J2RgS3vfAgD8p7BxYaf8Wp2BVRWfvZ32uVoHPae3ojG3RCtw;";
+        private string cadenaconexion = "Data Source=LAPTOP-C3204AHJ\\SQLEXPRESS;Initial Catalog=CFFLORESDB;Integrated Security=True";
         public EProducto ObtenerProducto(string codigobarra, string nombre, string tipo)
         {
 
